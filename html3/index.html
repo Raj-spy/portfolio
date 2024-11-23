@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header id="header">
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Hi, I'm Raj Tayde</h1>
+    <p>A passionate front-end developer</p>
+    <button onclick="scrollToSection('about')">Learn More</button>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I specialize in creating professional, responsive websites using HTML, CSS, and JavaScript. I'm always eager to learn and take on new challenges!</p>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>A dynamic e-commerce website with user-friendly features.</p>
+      <p>This is a fully responsive e-commerce website dedicated to showcasing and selling a wide range of stylish and comfortable shoes. The website features an intuitive user interface, sleek modern design, and smooth navigation, making it easy for users to explore products. With categories, detailed product pages, and a seamless shopping cart, customers can find and purchase their desired shoes effortlessly. The design emphasizes responsiveness, ensuring a flawless shopping experience on mobile, tablet, and desktop devices</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>QR Code Generator</p>
+      <p>A dynamic QR Code Generator that allows users to create custom QR codes for any website. 
+        Simply input the URL, and the tool instantly generates a scannable QR code, making sharing 
+        websites quick and easy. Ideal for businesses, events, and personal use!</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Raj Tayde. All rights reserved.</p>
+  </footer>
+</body>
+</html>
